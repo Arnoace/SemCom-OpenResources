@@ -21,7 +21,7 @@ Research using pretrained language models to improve semantic representation, en
 | Paper | Year | Research Focus | Resources |
 |---|---:|---|---|
 | Enhancing Deep Semantic Communication Systems (Deep-SC) using the Pre-trained Models BERT and BART | 2024 | Incorporating pretrained BERT and BART into DeepSC | [Paper](https://doi.org/10.1109/MI-STA61267.2024.10599693) |
-| Seq2SeqSC (Lee et al.) | 2023 | Sequence-to-sequence-based semantic communication | Paper information to be verified |
+| Seq2SeqSC (Lee et al.) | 2023 | Sequence-to-sequence-based semantic communication | [Paper](https://www.jaypujara.org/pubs/2023/lee2023seq2seqsc.pdf) |
 
 ### 1.3 Generative Semantic Communication
 
