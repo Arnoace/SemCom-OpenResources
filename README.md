@@ -1,71 +1,60 @@
+# Text-based Semantic Communication
 
-# Semantic Communication Open Resources
+This section collects research papers, implementations, datasets, pretrained models, and useful tools for text-based semantic communication.
 
-A curated collection of research papers, official implementations, reproductions, datasets, pretrained models, and tools for Semantic Communication (SemCom).
+## 1. Research Papers
 
-The goal of this repository is to provide researchers and students with an organized entry point to explore, study, and reproduce research in semantic communication.
+| No. | Paper | Year | Research Focus | Paper Link |
+|---|---|---|---|---|
+| 1 | Deep Learning Enabled Semantic Communication Systems | 2021 | Transformer-based DeepSC for text transmission | [IEEE](https://doi.org/10.1109/TSP.2021.3071210) |
+| 2 | Enhancing Deep Semantic Communication Systems (Deep-SC) using the Pre-trained Models BERT and BART | 2024 | Replacing components with pretrained BERT and BART models | [IEEE](https://doi.org/10.1109/MI-STA61267.2024.10599693) |
+| 3 | Seq2SeqSC (Lee et al., 2023) | 2023 | Sequence-to-sequence-based semantic communication | Paper information to be verified |
+| 4 | GenSC: Generative Semantic Communication Systems Using BART-Like Model | 2024 | Generative semantic decoding with BART-like models | [IEEE](https://doi.org/10.1109/LCOMM.2024.3450309) |
+| 5 | A Road Map for Utilizing SemCom on the Way to Breaking Traditional QoS Boundaries | 2026 | Large AI models for semantic communication | [IEEE](https://doi.org/10.1109/ICC59461.2026.11588274) |
+| 6 | On the Uses of Large Language Models to Design End-to-End Learning Semantic Communication | 2024 | LLM-based end-to-end semantic communication | [IEEE](https://doi.org/10.1109/WCNC57260.2024.10570717) |
 
-## Contents
+## 2. Open-source Implementations
 
-- [Research Topics](#research-topics)
-- [Papers](#papers)
-- [Implementations](#implementations)
-- [Datasets](#datasets)
-- [Pretrained Models](#pretrained-models)
-- [Tools](#tools)
-- [Contributing](#contributing)
-
-## Research Topics
-
-| Topic | Description |
-|---|---|
-| Classical Semantic Communication | Foundational concepts and communication architectures |
-| Deep Learning-based SemCom | Neural networks for semantic encoding and decoding |
-| LLM-based SemCom | BERT, BART, GPT and large language models |
-| Multimodal SemCom | Image, audio, video and multimodal semantic transmission |
-| Optical Semantic Communication | Semantic communication over optical channels |
-| Secure Semantic Communication | Privacy, security and robustness in SemCom |
-
-## Papers
-
-A categorized collection of research papers on semantic communication.
-
-- Classical Semantic Communication
-- Deep Learning-based Semantic Communication
-- LLM-based Semantic Communication
-- Multimodal Semantic Communication
-- Optical Semantic Communication
-- Secure Semantic Communication
-
-## Implementations
-
-A collection of open-source implementations related to semantic communication.
-
-| Project | Paper | Code | Status |
+| Project | Related Paper | Code | Notes |
 |---|---|---|---|
-| DeepSC | Deep Learning-based Semantic Communications | [GitHub](https://github.com/chan-csu/DeepSC) | To be verified |
-| GenSC | Generative Semantic Communication Systems Using BART-Like Model | [GitHub](https://github.com/CTHMIT/gensc) | Official repository |
+| DeepSC | Deep Learning Enabled Semantic Communication Systems | [GitHub](https://github.com/13274086/DeepSC) | PyTorch implementation |
+| GenSC | GenSC: Generative Semantic Communication Systems Using BART-Like Model | [GitHub](https://github.com/CTHMIT/gensc) | Official project repository |
 
-## Datasets
+## 3. Datasets
 
-A collection of datasets used in semantic communication research.
+### Europarl Corpus
 
-## Pretrained Models
+- **Dataset:** [Europarl Parallel Corpus](https://www.statmt.org/europarl/)
+- **Used by:** DeepSC
+- **Description:** A multilingual parallel corpus extracted from European Parliament proceedings.
+- **Purpose:** Used as text data for training and evaluating semantic communication systems.
 
-Pretrained language models and other models used in semantic communication research.
+## 4. Pretrained Models
 
-## Tools
+### BERT
 
-Useful tools, frameworks and simulation environments for semantic communication.
+- **Model:** [bert-base-multilingual-cased](https://huggingface.co/bert-base-multilingual-cased)
+- **Platform:** Hugging Face
+- **Description:** A multilingual pretrained BERT model.
+- **Usage:** Can be used for tokenization, contextual representation, and language modeling-related tasks.
 
-## Contributing
+### BART
 
-Contributions are welcome!
+- **Model:** [BART](https://huggingface.co/facebook/bart-base)
+- **Platform:** Hugging Face
+- **Description:** A pretrained sequence-to-sequence denoising autoencoder.
+- **Usage:** Useful for text reconstruction and generative semantic decoding research.
 
-If you know a relevant research paper, open-source implementation, dataset, or tool, feel free to submit an issue or pull request.
+## 5. Research and Code Discovery
 
-Please provide the original paper or project link whenever possible.
+| Resource | Description | Link |
+|---|---|---|
+| Connected Papers | Explore related papers through a visual similarity graph | [Website](https://www.connectedpapers.com/) |
+| OpenSemanticComm | Open-source code collection for semantic communication research | [GitHub](https://github.com/yang-hsiao/OpenSemanticComm) |
 
-## Disclaimer
+## 6. Notes
 
-This repository is an independent research resource collection. All papers, code, datasets and models belong to their respective authors and owners. Please refer to the original sources for licensing and usage conditions.
+- Paper links point to publisher or DOI pages whenever available.
+- Code links should be checked against the original authors' repositories.
+- Dataset and pretrained model links are provided for research and reproduction purposes.
+- Please refer to the original sources for licensing and usage conditions.
