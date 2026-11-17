@@ -1,8 +1,48 @@
 # Semantic Communication Open Resources
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 A curated collection of research papers, open-source implementations, datasets, pretrained models, and research tools for Semantic Communication (SemCom).
 
 This repository organizes open resources according to data modalities and research directions, aiming to facilitate literature exploration, algorithm development, and experimental reproduction.
+
+- [Semantic Communication Open Resources](#semantic-communication-open-resources)
+  - [1. Text-based Semantic Communication](#1-text-based-semantic-communication)
+    - [1.1 Research Papers](#11-research-papers)
+    - [1.2 Datasets](#12-datasets)
+    - [1.3 Pretrained Models](#13-pretrained-models)
+    - [1.4 Research Tools and Literature Discovery](#14-research-tools-and-literature-discovery)
+  - [2. Image-based Semantic Communication](#2-image-based-semantic-communication)
+    - [2.1 Research Papers](#21-research-papers)
+    - [2.2 Datasets and Pretrained Models](#22-datasets-and-pretrained-models)
+    - [2.3 GitHub Implementations](#23-github-implementations)
+  - [3. Speech-based Semantic Communication](#3-speech-based-semantic-communication)
+    - [3.1 Research Papers](#31-research-papers)
+    - [3.2 Datasets and Pretrained Models](#32-datasets-and-pretrained-models)
+    - [3.3 GitHub Implementations](#33-github-implementations)
+  - [4. Video-based Semantic Communication](#4-video-based-semantic-communication)
+    - [4.1 Research Papers](#41-research-papers)
+    - [4.2 Datasets and Pretrained Models](#42-datasets-and-pretrained-models)
+    - [4.3 GitHub Implementations](#43-github-implementations)
+  - [5. Point Cloud-based Semantic Communication](#5-point-cloud-based-semantic-communication)
+    - [5.1 Research Papers](#51-research-papers)
+    - [5.2 Datasets and Pretrained Models](#52-datasets-and-pretrained-models)
+    - [5.3 GitHub Implementations](#53-github-implementations)
+  - [6. Multimodal Semantic Communication](#6-multimodal-semantic-communication)
+    - [6.1 Research Papers](#61-research-papers)
+    - [6.2 Datasets and Pretrained Models](#62-datasets-and-pretrained-models)
+    - [6.3 GitHub Implementations](#63-github-implementations)
+  - [7. Secure Semantic Communication](#7-secure-semantic-communication)
+    - [7.1 Research Papers](#71-research-papers)
+    - [7.2 Datasets and Tools](#72-datasets-and-tools)
+    - [7.3 GitHub Implementations](#73-github-implementations)
+  - [8. Optical Semantic Communication](#8-optical-semantic-communication)
+    - [8.1 Research Papers](#81-research-papers)
+    - [8.2 Datasets and Simulation Tools](#82-datasets-and-simulation-tools)
+    - [8.3 GitHub Implementations](#83-github-implementations)
+  - [9. Contributing](#9-contributing)
+  - [Disclaimer](#disclaimer)
+
 
 ## 1. Text-based Semantic Communication
 
