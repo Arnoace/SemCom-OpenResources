@@ -181,7 +181,9 @@
 
 ### 8.1 研究论文
 
-待补充论文。
+| 序号 | 论文 | 年份 | 核心贡献 / 创新点 | 模型 / 架构 | 信道 / 通信方案 | 论文资源 | GitHub 代码资源 |
+|---|---|---:|---|---|---|---|---|
+| 1 | Covertness-Oriented Water-to-Air Optical Wireless Semantic Communications | 2026 | Proposes a covertness-oriented semantic communication scheme for water-to-air optical wireless communication; exploits a sparsity-regularized semantic transmission to reduce transmitted data volume and lower adversarial detection probability, and introduces the Underwater Anomaly Monitoring (UAM) dataset | Sparsity-regularized semantic transmission (task-relevant semantic feature extraction) | Water-to-air optical wireless communication (W2A-OWC) channel; underwater anomaly monitoring | [DOI](https://doi.org/10.1109/TGCN.2026.3734354) | [Covert-SemCom-W2A-OWC](https://github.com/qingqinghu-Ricky/Covert-semantic-communication-for-W2A-OWC) |
 
 ### 8.2 数据集与仿真工具
 

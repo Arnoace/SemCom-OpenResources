@@ -183,7 +183,9 @@ Research on semantic communication over optical communication systems and optica
 
 ### 8.1 Research Papers
 
-Papers to be added.
+| No. | Paper | Year | Core Contributions / Innovations | Models / Architectures | Channel / Communication Scheme | Paper Resources | GitHub Code Resources |
+|---|---|---:|---|---|---|---|---|
+| 1 | Covertness-Oriented Water-to-Air Optical Wireless Semantic Communications | 2026 | Proposes a covertness-oriented semantic communication scheme for water-to-air optical wireless communication; exploits a sparsity-regularized semantic transmission to reduce transmitted data volume and lower adversarial detection probability, and introduces the Underwater Anomaly Monitoring (UAM) dataset | Sparsity-regularized semantic transmission (task-relevant semantic feature extraction) | Water-to-air optical wireless communication (W2A-OWC) channel; underwater anomaly monitoring | [DOI](https://doi.org/10.1109/TGCN.2026.3734354) | [Covert-SemCom-W2A-OWC](https://github.com/qingqinghu-Ricky/Covert-semantic-communication-for-W2A-OWC) |
 
 ### 8.2 Datasets and Simulation Tools
 
